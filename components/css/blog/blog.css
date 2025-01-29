@@ -1,0 +1,79 @@
+.study{
+    background-color: #fff;
+}
+.page{
+    text-align: center;
+    margin: 125px 0;
+}
+.page__h2{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.page__about{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 16px 0 30px 0;
+}
+.page__paragrph{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 70%;
+    margin: 48px 0 16px 0;
+}
+.page__read{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2405F2;
+}
+@media screen and (max-width: 1290px) {
+    .page__img{
+        width: 420px;
+    }
+    .page__h2{
+        font-size: 25px;
+    }
+}
+.card{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+}
+.ourblog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin: 100px 0;
+}
+.ourblog__h3{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 70%;
+    margin: 32px 0 16px 0;
+}
+.ourblog__h2{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.ourblog__paragrph{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 16px 0 24px 0;
+    opacity: 70%;
+}

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background: #1C1E53;
+}
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 32px 0;
+}
+.li, list{
+    text-decoration: none;
+    color: #BBBBCB;
+    list-style: none;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+}
+.list{
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.list:hover{
+    color: #9393a1;
+}
+.btn__link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+   text-decoration: none;
+}
+.btn{
+    border-radius: 40px;
+    padding: 16px 48px;
+    border: 1px solid #F4F6FC33;
+    background: #1C1E53;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #535460;
+    color: white;
+}
+@media screen and (max-width:720px) {
+    .nav__list{
+        display: none;
+    }
+}
+
+.container{
+    align-items: center;
+}
+
+.last{
+    padding: 100px 0;
+}
+.presence{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 260px;
+}
+.presence__text-paragrph{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+.presence__text-paragrphs{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+.presence__text-h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.presence__text-img{
+    width: 230px;
+    margin: 0;
+    padding: 0;
+}
+.presence__text-images{
+    padding-top: 28px;
+}
+
+.email__text{
+    display: flex;
+    width: 525px;
+    height: 85px;
+    gap: 60px;
+    padding: 15px;
+    background: #FCD980;
+}
+
+.email__call{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+.email__paragrph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 80%;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 985px) {
+    .presence{
+        justify-content: center;
+        gap: 25px;
+    }
+        
+}
+@media screen and (max-width: 536px) {
+    .email__text{
+        width: 390px;
+        margin-top: 25px;
+    }
+}

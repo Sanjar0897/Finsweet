@@ -1,0 +1,89 @@
+.final{
+    background-color: #fff;
+}
+.contactus{
+    text-align: center;
+    margin: 128px 0 64px 0;
+}
+.contactus__h2{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.contactus__paragrph{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+
+.information{
+    width: 1075px;
+    height: 600px;
+    background: #F4F6FC;   
+    margin: 64px 0 128px 100px;
+   
+}
+.information__first{
+    display: flex;
+    margin-left: 77px;
+}
+.input{
+    margin: 15px;
+    background: #F4F6FC;
+}
+.information__label{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.information__input{
+    width: 438px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 18px 274px 18px 32px;
+    background: #F4F6FC;
+    border: 1px solid #0000001F;
+    border-radius: 8px;
+}
+
+.form_input{
+   background: #F4F6FC;
+   width: 908px;
+   margin-left: 77px;
+}
+.form_input__label{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.form_input__input{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 18px 676px 90px 32px;
+    border-radius: 8px;
+    border: 1px solid #0000001F;
+    background: #F4F6FC;
+}
+.btn_send{
+    border-radius: 40px;
+    padding: 16px 48px;
+    border: 1px solid #F4F6FC33;
+    background: #1C1E53;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 30px 0 0 95px;
+}
+@media screen and (max-width: 1190px) {
+    .information{
+        width: 450px;
+    }
+    .information__first{
+        width: 450px;
+    }
+}

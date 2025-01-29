@@ -1,0 +1,141 @@
+.section{
+    background-color: #fff;
+}
+.designs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+}
+.designs__text{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.designs__text-our{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    padding: 8px 0 30px 0;
+    font-family: sans-serif;
+}
+.designs__text-lorem{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 70%;
+    font-family: sans-serif;
+}
+@media screen and (max-width:1129px) {
+    .designs{
+        justify-content: center;
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 1138px) {
+    .designs__images-img{
+        width: 420px;   
+    }
+    .designs__text{
+        justify-content: center;
+    }
+}
+
+
+
+.goal{
+    display: flex;
+    justify-content: space-evenly;
+    background: #F4F5F5;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 60px 30px;
+}
+.goal_text-focussed{
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-bottom: 16px;
+}
+.goal_text-paragrph{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 70%;
+}
+.goal_text-images{
+    max-width: 1280px;  
+}
+.goal_text-img{
+    width: 1280px;
+}
+@media screen and (max-width: 1290px) {
+    .goal_text-img{
+        width: 420px;
+    }
+    .goal{
+        width: 420px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 956px) {
+    .improvement{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+.section__bg{
+    background: #F4F6FC;
+}
+.meet{
+    padding: 80px 0 50px 0;
+}
+.meet__about{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+.meet__images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.meet__images-team{
+    width: 296px;
+    height: 344px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.meet__images-img{
+  width: 268px;
+  height: 168px;
+  margin: 45px 0;
+}
+.meet__images-man{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.meet__images-paragrph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+
+}
+@media screen and (max-width: 605px) {
+    .meet__images{
+        justify-content: center;
+        gap: 25px;
+    }  
+}
