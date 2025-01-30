@@ -145,4 +145,7 @@ body{
         width: 390px;
         margin-top: 25px;
     }
+    .presence__text-img{
+        width: 390px;
+    }
 }

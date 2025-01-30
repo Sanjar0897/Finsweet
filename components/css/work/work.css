@@ -42,12 +42,10 @@
 .all{
     background-color: #fff;
 }
-
 .card__h2{
     font-size: 38px;
     font-weight: 600;
     line-height: 56px;
-    text-align: left;
 }
 .card__paragrph{
     font-size: 16px;
@@ -55,14 +53,21 @@
     line-height: 28px;
     opacity: 70%;
     padding: 12px 0 24px 0;
-    text-align: left;
+}
+.design{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin: 50px 0 125px 0;
 }
 .design_itm{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
-    margin: 0 400px;
+    gap: 40px;
     margin-top: 90px;
+    align-items: center;
 }
 .design_list-link{
     text-decoration: none;
@@ -70,14 +75,6 @@
 }
 .design_list-link:hover{
        color:  #2405F2;
-}
-
-.design{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   gap: 30px;
-   margin: 50px 0 125px 0;
 }
 
 .view{
@@ -92,19 +89,15 @@
     padding-left: 18px;
     letter-spacing: 1px;
 }
-@media screen and(max-width: 1215px) {
-    .design_itm{
 
-    }
-}
 @media screen and(max-width: 1286px) {
-    .card{
-       
+    .design {
+       justify-content: center;
     }
 }
 @media screen and (max-width: 630px) {
     .card__img{
-        width: 420px;
+        width: 390px;
     }
 }
 

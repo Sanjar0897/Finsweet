@@ -19,21 +19,18 @@
     margin-top: 16px;
 }
 
-
 .information{
-    width: 1075px;
-    height: 600px;
-    background: #F4F6FC;   
-    margin: 64px 0 128px 100px;
-   
+    background-color: #F4F6FC;
+    flex-wrap: wrap;
+    margin: 64px 0 120px 0;
 }
 .information__first{
-    display: flex;
-    margin-left: 77px;
+    display: flex;             
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.input{
-    margin: 15px;
-    background: #F4F6FC;
+.information__first-input{
+    margin: 15px 0;
 }
 .information__label{
     font-size: 18px;
@@ -41,7 +38,6 @@
     line-height: 32px;
 }
 .information__input{
-    width: 438px;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -51,24 +47,24 @@
     border-radius: 8px;
 }
 
-.form_input{
-   background: #F4F6FC;
-   width: 908px;
-   margin-left: 77px;
-}
 .form_input__label{
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
+    text-align: left;
 }
 .form_input__input{
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    padding: 18px 676px 90px 32px;
+    width: 1100px;
+    padding: 18px 0 90px 32px;
     border-radius: 8px;
     border: 1px solid #0000001F;
     background: #F4F6FC;
+}
+.form__btn{    
+    margin-bottom: 50px; 
 }
 .btn_send{
     border-radius: 40px;
@@ -77,13 +73,19 @@
     background: #1C1E53;
     letter-spacing: 1px;
     color: #fff;
-    margin: 30px 0 0 95px;
+    margin: 30px 0 50px 95px;
 }
-@media screen and (max-width: 1190px) {
-    .information{
-        width: 450px;
+@media screen and (max-width: 1210px) {
+    .form_input__input{
+        width: 390px;
     }
-    .information__first{
-        width: 450px;
+    .information__input{
+        width: 390px;
     }
+    .form_input{
+        width: 390px;
+    }
+    
 }
+
+

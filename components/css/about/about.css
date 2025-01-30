@@ -36,14 +36,12 @@
 }
 @media screen and (max-width: 1138px) {
     .designs__images-img{
-        width: 420px;   
+        width: 390px;   
     }
     .designs__text{
         justify-content: center;
     }
 }
-
-
 
 .goal{
     display: flex;
@@ -58,7 +56,7 @@
     font-size: 38px;
     font-weight: 600;
     line-height: 56px;
-    padding-bottom: 16px;
+    /* padding-bottom: 16px; */
 }
 .goal_text-paragrph{
     font-family: sans-serif;
@@ -75,17 +73,17 @@
 }
 @media screen and (max-width: 1290px) {
     .goal_text-img{
-        width: 420px;
+        width: 390px;
     }
     .goal{
-        width: 420px;
+        width: 390px;
         justify-content: center;
     }
 }
 @media screen and (max-width: 956px) {
     .improvement{
         justify-content: center;
-        align-items: center;
+       text-align: center;
     }
 }
 
